@@ -2,10 +2,10 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def hello
-    render text: "hello, Meeshka"
+    puts "hello oxxy"
   end
 
   def bye
-    render text: "BYE"
+    puts 'buuyyy'
   end
 end
