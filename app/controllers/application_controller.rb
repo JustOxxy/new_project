@@ -6,6 +6,6 @@ class ApplicationController < ActionController::Base
   end
 
   def bye
-    puts 'buuyyy'
+    render plain: 'buuyyy'
   end
 end
