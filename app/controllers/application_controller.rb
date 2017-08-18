@@ -6,6 +6,6 @@ class ApplicationController < ActionController::Base
   end
 
   def bye
-    render plain: 'buuyyy'
+    render plain: 'Hello, Meeshka! This is my web-site. And I love you <3'
   end
 end
